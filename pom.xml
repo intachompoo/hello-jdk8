@@ -22,7 +22,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<springboot.version>1.5.8.RELEASE</springboot.version>
 	</properties>
 
 	<distributionManagement>
@@ -58,11 +57,6 @@
 		      <groupId>org.springframework.boot</groupId>
 		      <artifactId>spring-boot-starter-actuator</artifactId>
 		 </dependency>
-                 
-                 <dependency>
-                      <groupId>org.springframework.cloud</groupId>
-                      <artifactId>spring-cloud-sleuth-zipkin</artifactId>
-                 </dependency>
 	</dependencies>
 
 	<build>
